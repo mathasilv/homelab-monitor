@@ -1,0 +1,22 @@
+# HomeLab Monitor Configuration
+
+# Serial port settings
+serial:
+  port: /dev/ttyACM0
+  baud_rate: 115200
+
+# Update interval in seconds
+interval: 2
+
+# Disk mount point to monitor
+disk_mount: /srv
+
+# Network interfaces to ignore
+ignore_interfaces:
+  - lo
+  - tun
+  - nordlynx
+  - wg
+  - docker
+  - br-
+  - veth

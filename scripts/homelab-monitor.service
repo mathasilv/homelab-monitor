@@ -1,0 +1,14 @@
+[Unit]
+Description=HomeLab Monitor - Server Statistics Display
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/homelab-monitor/server-client
+ExecStart=/usr/bin/python3 /opt/homelab-monitor/server-client/src/monitor.py /dev/ttyACM0
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
