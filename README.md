@@ -42,10 +42,7 @@ Add photos of your project to the docs/images/ folder and update the references 
 | Description | Image |
 |-------------|-------|
 | Display running | ![Display](docs/images/display-running.jpg) |
-| Hardware assembly | ![Hardware](docs/images/hardware-assembly.jpg) |
 | Wiring | ![Wiring](docs/images/wiring.jpg) |
-| Case (optional) | ![Case](docs/images/case.jpg) |
-
 ## Hardware
 
 ### Components
